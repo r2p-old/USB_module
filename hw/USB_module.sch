@@ -7980,71 +7980,15 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <rectangle x1="-2.775" y1="3.875" x2="-1.725" y2="4.075" layer="51" rot="R270"/>
 <rectangle x1="-3.275" y1="3.875" x2="-2.225" y2="4.075" layer="51" rot="R270"/>
 </package>
-<package name="VFQFNP48">
-<smd name="P$1" x="-3.375" y="2.75" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$2" x="-3.375" y="2.25" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$3" x="-3.375" y="1.75" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$4" x="-3.375" y="1.25" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$5" x="-3.375" y="0.75" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$6" x="-3.375" y="0.25" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$7" x="-3.375" y="-0.25" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$8" x="-3.375" y="-0.75" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$9" x="-3.375" y="-1.25" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$10" x="-3.375" y="-1.75" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$11" x="-3.375" y="-2.25" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$12" x="-3.375" y="-2.75" dx="0.55" dy="0.3" layer="1"/>
-<smd name="P$13" x="-2.75" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$14" x="-2.25" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$15" x="-1.75" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$16" x="-1.25" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$17" x="-0.75" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$18" x="-0.25" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$19" x="0.25" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$20" x="0.75" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$21" x="1.25" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$22" x="1.75" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$23" x="2.25" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$24" x="2.75" y="-3.375" dx="0.55" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$25" x="3.375" y="-2.75" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$26" x="3.375" y="-2.25" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$27" x="3.375" y="-1.75" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$28" x="3.375" y="-1.25" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$29" x="3.375" y="-0.75" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$30" x="3.375" y="-0.25" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$31" x="3.375" y="0.25" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$32" x="3.375" y="0.75" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$33" x="3.375" y="1.25" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$34" x="3.375" y="1.75" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$35" x="3.375" y="2.25" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$36" x="3.375" y="2.75" dx="0.55" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$37" x="2.75" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$38" x="2.25" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$39" x="1.75" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$40" x="1.25" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$41" x="0.75" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$42" x="0.25" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$43" x="-0.25" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$44" x="-0.75" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$45" x="-1.25" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$46" x="-1.75" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$47" x="-2.25" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$48" x="-2.75" y="3.375" dx="0.55" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$49" x="0" y="0" dx="5.6" dy="5.6" layer="1"/>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="21"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="21"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="21"/>
-<circle x="-2.5" y="2.5" radius="0.5" width="0.1" layer="21"/>
-</package>
 </packages>
 <symbols>
-<symbol name="STM32F103CX">
+<symbol name="STM32F303C">
 <wire x1="-25.4" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
 <wire x1="22.86" y1="25.4" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-22.86" x2="-25.4" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="-22.86" x2="-25.4" y2="25.4" width="0.254" layer="94"/>
-<pin name="PD0/OSC_IN" x="-5.08" y="30.48" length="middle" rot="R270"/>
-<pin name="PD1/OSC_OUT" x="-7.62" y="30.48" length="middle" rot="R270"/>
+<pin name="PF0/OSC_IN" x="-5.08" y="30.48" length="middle" rot="R270"/>
+<pin name="PF1/OSC_OUT" x="-7.62" y="30.48" length="middle" rot="R270"/>
 <pin name="BOOT0" x="-10.16" y="30.48" length="middle" rot="R270"/>
 <pin name="NRST" x="-12.7" y="30.48" length="middle" rot="R270"/>
 <pin name="VBAT" x="-15.24" y="30.48" length="middle" rot="R270"/>
@@ -8091,15 +8035,33 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <pin name="PC13" x="2.54" y="30.48" length="middle" rot="R270"/>
 <pin name="PC14" x="0" y="30.48" length="middle" rot="R270"/>
 <pin name="PC15" x="-2.54" y="30.48" length="middle" rot="R270"/>
+<circle x="-7.62" y="25.4" radius="0.254" width="0.508" layer="94"/>
+<circle x="-5.08" y="25.4" radius="0.254" width="0.508" layer="94"/>
+<circle x="-40.64" y="-15.24" radius="0.254" width="0.508" layer="94"/>
+<circle x="-5.08" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="-2.54" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="0" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="2.54" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="5.08" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="7.62" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="10.16" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="12.7" y="-22.86" radius="0.254" width="0.508" layer="94"/>
+<circle x="22.86" y="-5.08" radius="0.254" width="0.508" layer="94"/>
+<circle x="22.86" y="-2.54" radius="0.254" width="0.508" layer="94"/>
+<circle x="22.86" y="0" radius="0.254" width="0.508" layer="94"/>
+<circle x="22.86" y="2.54" radius="0.254" width="0.508" layer="94"/>
+<circle x="22.86" y="5.08" radius="0.254" width="0.508" layer="94"/>
+<circle x="22.86" y="7.62" radius="0.254" width="0.508" layer="94"/>
+<circle x="22.86" y="10.16" radius="0.254" width="0.508" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM32F103CX">
+<deviceset name="STM32F303C">
 <gates>
-<gate name="G$1" symbol="STM32F103CX" x="0" y="0"/>
+<gate name="G$1" symbol="STM32F303C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="TX" package="LQFP48">
+<device name="" package="LQFP48">
 <connects>
 <connect gate="G$1" pin="BOOT0" pad="44"/>
 <connect gate="G$1" pin="NRST" pad="7"/>
@@ -8138,72 +8100,17 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <connect gate="G$1" pin="PC13" pad="2"/>
 <connect gate="G$1" pin="PC14" pad="3"/>
 <connect gate="G$1" pin="PC15" pad="4"/>
-<connect gate="G$1" pin="PD0/OSC_IN" pad="5"/>
-<connect gate="G$1" pin="PD1/OSC_OUT" pad="6"/>
+<connect gate="G$1" pin="PF0/OSC_IN" pad="5"/>
+<connect gate="G$1" pin="PF1/OSC_OUT" pad="6"/>
 <connect gate="G$1" pin="VBAT" pad="1"/>
-<connect gate="G$1" pin="VDD_1" pad="24"/>
-<connect gate="G$1" pin="VDD_2" pad="36"/>
-<connect gate="G$1" pin="VDD_3" pad="48"/>
+<connect gate="G$1" pin="VDD_1" pad="48"/>
+<connect gate="G$1" pin="VDD_2" pad="24"/>
+<connect gate="G$1" pin="VDD_3" pad="36"/>
 <connect gate="G$1" pin="VDD_A" pad="9"/>
-<connect gate="G$1" pin="VSS_1" pad="23"/>
-<connect gate="G$1" pin="VSS_2" pad="35"/>
-<connect gate="G$1" pin="VSS_3" pad="47"/>
+<connect gate="G$1" pin="VSS_1" pad="47"/>
+<connect gate="G$1" pin="VSS_2" pad="23"/>
+<connect gate="G$1" pin="VSS_3" pad="35"/>
 <connect gate="G$1" pin="VSS_A" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UX" package="VFQFNP48">
-<connects>
-<connect gate="G$1" pin="BOOT0" pad="P$44"/>
-<connect gate="G$1" pin="NRST" pad="P$7"/>
-<connect gate="G$1" pin="PA0/WKUP" pad="P$10"/>
-<connect gate="G$1" pin="PA1" pad="P$11"/>
-<connect gate="G$1" pin="PA10" pad="P$31"/>
-<connect gate="G$1" pin="PA11" pad="P$32"/>
-<connect gate="G$1" pin="PA12" pad="P$33"/>
-<connect gate="G$1" pin="PA13" pad="P$34"/>
-<connect gate="G$1" pin="PA14" pad="P$37"/>
-<connect gate="G$1" pin="PA15" pad="P$38"/>
-<connect gate="G$1" pin="PA2" pad="P$12"/>
-<connect gate="G$1" pin="PA3" pad="P$13"/>
-<connect gate="G$1" pin="PA4" pad="P$14"/>
-<connect gate="G$1" pin="PA5" pad="P$15"/>
-<connect gate="G$1" pin="PA6" pad="P$16"/>
-<connect gate="G$1" pin="PA7" pad="P$17"/>
-<connect gate="G$1" pin="PA8" pad="P$29"/>
-<connect gate="G$1" pin="PA9" pad="P$30"/>
-<connect gate="G$1" pin="PB0" pad="P$18"/>
-<connect gate="G$1" pin="PB1" pad="P$19"/>
-<connect gate="G$1" pin="PB10" pad="P$21"/>
-<connect gate="G$1" pin="PB11" pad="P$22"/>
-<connect gate="G$1" pin="PB12" pad="P$25"/>
-<connect gate="G$1" pin="PB13" pad="P$26"/>
-<connect gate="G$1" pin="PB14" pad="P$27"/>
-<connect gate="G$1" pin="PB15" pad="P$28"/>
-<connect gate="G$1" pin="PB2-BOOT1" pad="P$20"/>
-<connect gate="G$1" pin="PB3" pad="P$39"/>
-<connect gate="G$1" pin="PB4" pad="P$40"/>
-<connect gate="G$1" pin="PB5" pad="P$41"/>
-<connect gate="G$1" pin="PB6" pad="P$42"/>
-<connect gate="G$1" pin="PB7" pad="P$43"/>
-<connect gate="G$1" pin="PB8" pad="P$45"/>
-<connect gate="G$1" pin="PB9" pad="P$46"/>
-<connect gate="G$1" pin="PC13" pad="P$2"/>
-<connect gate="G$1" pin="PC14" pad="P$3"/>
-<connect gate="G$1" pin="PC15" pad="P$4"/>
-<connect gate="G$1" pin="PD0/OSC_IN" pad="P$5"/>
-<connect gate="G$1" pin="PD1/OSC_OUT" pad="P$6"/>
-<connect gate="G$1" pin="VBAT" pad="P$1"/>
-<connect gate="G$1" pin="VDD_1" pad="P$24"/>
-<connect gate="G$1" pin="VDD_2" pad="P$36"/>
-<connect gate="G$1" pin="VDD_3" pad="P$48"/>
-<connect gate="G$1" pin="VDD_A" pad="P$9"/>
-<connect gate="G$1" pin="VSS_1" pad="P$23"/>
-<connect gate="G$1" pin="VSS_2" pad="P$35"/>
-<connect gate="G$1" pin="VSS_3" pad="P$47"/>
-<connect gate="G$1" pin="VSS_A" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9334,7 +9241,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="U$3" library="maxim" deviceset="MAX17501" device=""/>
 <part name="J1" library="OPL Eagle Library" deviceset="GROVE-4P-2.0" device="-3470130P1"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$6" library="st" deviceset="STM32F103CX" device="TX"/>
+<part name="U$6" library="st" deviceset="STM32F303C" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
 <part name="GND13" library="supply" deviceset="GND" device=""/>
 <part name="SOT1" library="maxim" deviceset="MAX3051" device="EKA"/>
@@ -9474,13 +9381,13 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="X7" gate="-3" x="254" y="142.24"/>
 <instance part="X7" gate="-4" x="254" y="139.7"/>
 <instance part="X7" gate="-5" x="254" y="137.16"/>
-<instance part="X7" gate="-6" x="254" y="137.16"/>
+<instance part="X7" gate="-6" x="254" y="134.62"/>
 <instance part="X8" gate="-1" x="254" y="124.46"/>
 <instance part="X8" gate="-2" x="254" y="121.92"/>
 <instance part="X8" gate="-3" x="254" y="119.38"/>
 <instance part="X8" gate="-4" x="254" y="116.84"/>
 <instance part="X8" gate="-5" x="254" y="114.3"/>
-<instance part="X8" gate="-6" x="254" y="114.3"/>
+<instance part="X8" gate="-6" x="254" y="111.76"/>
 <instance part="X9" gate="-1" x="322.58" y="220.98"/>
 <instance part="X9" gate="-2" x="322.58" y="218.44"/>
 <instance part="X9" gate="-3" x="322.58" y="215.9"/>
@@ -9817,7 +9724,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <wire x1="50.8" y1="236.22" x2="50.8" y2="238.76" width="0.1524" layer="91"/>
 <label x="50.8" y="238.76" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$6" gate="G$1" pin="PD0/OSC_IN"/>
+<pinref part="U$6" gate="G$1" pin="PF0/OSC_IN"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="170.18" x2="134.62" y2="170.18" width="0.1524" layer="91"/>
@@ -9986,18 +9893,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="185.42" y1="231.14" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="228.6" x2="182.88" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="X7" gate="-5" pin="S"/>
-<pinref part="X7" gate="-6" pin="S"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="X8" gate="-5" pin="S"/>
-<pinref part="X8" gate="-6" pin="S"/>
 </segment>
 </net>
 </nets>

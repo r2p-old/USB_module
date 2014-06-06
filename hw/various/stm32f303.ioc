@@ -1,23 +1,30 @@
 #MicroXplorer Configuration settings - do not modify
-#Thu Jun 05 14:27:47 CEST 2014
+#Thu Jun 05 16:31:00 CEST 2014
 File.Version=1
 KeepUserPlacement=false
 Mcu.Family=STM32F3
 Mcu.IP0=CAN
 Mcu.IP1=SYS
-Mcu.IPNb=2
+Mcu.IP2=USB
+Mcu.IPNb=3
 Mcu.Name=STM32F303C(B-C)Tx
 Mcu.Package=LQFP48
 Mcu.Pin0=PF0-OSC_IN
 Mcu.Pin1=PF1-OSC_OUT
-Mcu.Pin2=PA13
-Mcu.Pin3=PA14
-Mcu.Pin4=PA15
-Mcu.Pin5=PB3
-Mcu.Pin6=PB8
-Mcu.Pin7=PB9
-Mcu.PinsNb=8
+Mcu.Pin2=PA11
+Mcu.Pin3=PA12
+Mcu.Pin4=PA13
+Mcu.Pin5=PA14
+Mcu.Pin6=PA15
+Mcu.Pin7=PB3
+Mcu.Pin8=PB8
+Mcu.Pin9=PB9
+Mcu.PinsNb=10
 Mcu.UserName=STM32F303CBTx
+PA11.Mode=Dummy
+PA11.Signal=USB_DM
+PA12.Mode=Dummy
+PA12.Signal=USB_DP
 PA13.Mode=JTAG(4-pin)
 PA13.Signal=SYS_JTMS-SWDIO
 PA14.Mode=JTAG(4-pin)
