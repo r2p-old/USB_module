@@ -16150,7 +16150,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="D6" library="dp_devices" deviceset="ZENER" device="SOD-323F" value="3V"/>
 <part name="GND41" library="supply" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="22"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="1k5"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
