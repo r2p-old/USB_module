@@ -15466,9 +15466,9 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="D1" library="diode" deviceset="MBR0520LT" device=""/>
 <part name="GND20" library="supply" deviceset="GND" device=""/>
 <part name="J3" library="OPL-Connector" deviceset="MICRO-SD-CARD-HOLDER-9P" device="'MICROSD-9P'"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="47k"/>
 <part name="J4" library="OPL Eagle Library" deviceset="MICRO-USB-5P" device="-340015001"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>

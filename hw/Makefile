@@ -1,5 +1,5 @@
 # Eagle executable path
-EAGLE := /opt/eagle-6.6.0/bin/eagle
+EAGLE := /opt/eagle-7.2.0/bin/eagle
 
 # Gerbv PCB image preview parameters - colours, plus resolution
 GERBER_IMAGE_RESOLUTION?=1200
@@ -84,12 +84,12 @@ pdf:
 	
 png:  $(PROJECT_NAME).GTL $(PROJECT_NAME).GTS $(PROJECT_NAME).GTO $(PROJECT_NAME).GTP $(PROJECT_NAME).GBL $(PROJECT_NAME).GBS $(PROJECT_NAME).GBO $(PROJECT_NAME).GBP  $(PROJECT_NAME).TXT $(PROJECT_NAME).GML $(PROJECT_NAME).place
 	`gerbv --export=png --output=$(PROJECT_NAME)-layout.png --dpi=$(GERBER_IMAGE_RESOLUTION) \
-	--background=#000000 --foreground=#$(HOLES_COLOUR) $(PROJECT_NAME).TXT \
+#	--background=#000000 --foreground=#$(HOLES_COLOUR) $(PROJECT_NAME).TXT \
 	--foreground=#$(SILKSCREEN_COLOUR) $(PROJECT_NAME).GTO \
 	--foreground=#$(SILKSCREEN_COLOUR) $(PROJECT_NAME).place \
 	--foreground=#$(PADS_COLOUR) $(PROJECT_NAME).GTS \
 	--foreground=#$(TOP_SOLDERMASK_COLOUR) $(PROJECT_NAME).GTL \
-	--foreground=#$(BOTTOM_SOLDERMASK_COLOUR) $(PROJECT_NAME).GBL `
+	--foreground=#$(BOTTOM_SOLDERMASK_COLOUR) $(PROJECT_NAME).GBL`
 
 ### CLEAN ###
 
