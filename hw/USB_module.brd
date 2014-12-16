@@ -1477,6 +1477,62 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 <wire x1="2" y1="1.5" x2="1.5" y2="2" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="2" x2="-2" y2="1.5" width="0.127" layer="21"/>
+<polygon width="0.254" layer="29">
+<vertex x="-0.75" y="1.5"/>
+<vertex x="-0.75" y="2.2"/>
+<vertex x="-1.55" y="2.2"/>
+<vertex x="-2.2" y="1.55"/>
+<vertex x="-2.2" y="-1.55"/>
+<vertex x="-1.55" y="-2.2"/>
+<vertex x="-0.75" y="-2.2"/>
+<vertex x="-0.75" y="-1.5"/>
+<vertex x="-1.15" y="-1.5"/>
+<vertex x="-1.5" y="-1.15"/>
+<vertex x="-1.5" y="1.15"/>
+<vertex x="-1.15" y="1.5"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="0.75" y="-1.5"/>
+<vertex x="0.75" y="-2.2"/>
+<vertex x="1.55" y="-2.2"/>
+<vertex x="2.2" y="-1.55"/>
+<vertex x="2.2" y="1.55"/>
+<vertex x="1.55" y="2.2"/>
+<vertex x="0.75" y="2.2"/>
+<vertex x="0.75" y="1.5"/>
+<vertex x="1.15" y="1.5"/>
+<vertex x="1.5" y="1.15"/>
+<vertex x="1.5" y="-1.15"/>
+<vertex x="1.15" y="-1.5"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="-0.90875" y="1.65875"/>
+<vertex x="-0.90875" y="2.04125"/>
+<vertex x="-1.55" y="2.04125"/>
+<vertex x="-2.04125" y="1.55"/>
+<vertex x="-2.04125" y="-1.55"/>
+<vertex x="-1.55" y="-2.04125"/>
+<vertex x="-0.90875" y="-2.04125"/>
+<vertex x="-0.90875" y="-1.65875"/>
+<vertex x="-1.30875" y="-1.65875"/>
+<vertex x="-1.65875" y="-1.30875"/>
+<vertex x="-1.65875" y="1.30875"/>
+<vertex x="-1.30875" y="1.65875"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="0.90875" y="-1.65875"/>
+<vertex x="0.90875" y="-2.04125"/>
+<vertex x="1.55" y="-2.04125"/>
+<vertex x="2.04125" y="-1.55"/>
+<vertex x="2.04125" y="1.55"/>
+<vertex x="1.55" y="2.04125"/>
+<vertex x="0.90875" y="2.04125"/>
+<vertex x="0.90875" y="1.65875"/>
+<vertex x="1.30875" y="1.65875"/>
+<vertex x="1.65875" y="1.30875"/>
+<vertex x="1.65875" y="-1.30875"/>
+<vertex x="1.30875" y="-1.65875"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -1815,7 +1871,7 @@ Based on the following sources:
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="ITead_rule-8mil *">
+<designrules name="test">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
