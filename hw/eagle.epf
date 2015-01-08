@@ -7,31 +7,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="/home/tino/Documents/Eagle/lbr/Ava.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/Impulso.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/Impulso3.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/OPL Eagle Library.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/SparkFun.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/amphenol.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/apbteam_con-amp-micromatch.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/ble112.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/con-jst-sh.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/con-jst-xh.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/con-jst2.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/dp_devices.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/dp_pcb.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/inductor-coilcraft-2.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/inductor-coilcraft.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/jst-ph.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/micro-stm_v2.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/microsd.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/misc.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/sf-bluegiga.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/stm32.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/supply.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/tps54061.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/ultrasonic_transducer-1.lbr"
-UsedLibrary="/home/tino/Documents/Eagle/lbr/ultrasonic_transducer.lbr"
 UsedLibrary="/home/tino/workspace/openrobots/Eagle/lbr/abracon.lbr"
 UsedLibrary="/home/tino/workspace/openrobots/Eagle/lbr/allegro.lbr"
 UsedLibrary="/home/tino/workspace/openrobots/Eagle/lbr/amphenol.lbr"
@@ -66,5 +41,5 @@ State=1
 Number=0
 
 [Desktop]
-Screen="3200 1200"
+Screen="3600 1200"
 Window="Win_1"
