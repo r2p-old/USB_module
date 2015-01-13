@@ -18453,7 +18453,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="GND10" gate="1" x="76.2" y="60.96"/>
 <instance part="C7" gate="G$1" x="124.46" y="71.12"/>
 <instance part="GND22" gate="1" x="124.46" y="63.5"/>
-<instance part="LED1" gate="G$1" x="22.86" y="114.3" rot="R180"/>
+<instance part="LED1" gate="G$1" x="22.86" y="116.84"/>
 <instance part="R1" gate="G$1" x="22.86" y="127" rot="R90"/>
 <instance part="GND16" gate="1" x="81.28" y="10.16"/>
 <instance part="GND17" gate="1" x="124.46" y="10.16"/>
@@ -18509,7 +18509,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="GND18" gate="1" x="246.38" y="127"/>
 <instance part="GND21" gate="1" x="256.54" y="127"/>
 <instance part="C12" gate="G$1" x="513.08" y="218.44"/>
-<instance part="LED2" gate="G$1" x="254" y="88.9" rot="R180"/>
+<instance part="LED2" gate="G$1" x="254" y="91.44"/>
 <instance part="R6" gate="G$1" x="254" y="101.6" rot="R90"/>
 <instance part="GND23" gate="1" x="254" y="83.82"/>
 </instances>
@@ -18678,10 +18678,6 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="78.74" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="76.2" y1="66.04" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
@@ -18732,8 +18728,12 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <pinref part="C12" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+</segment>
+<segment>
 <pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -19046,8 +19046,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="22.86" y1="119.38" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="USB_VBUS" class="0">
@@ -19226,8 +19226,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="254" y1="93.98" x2="254" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="SD_LED" class="0">

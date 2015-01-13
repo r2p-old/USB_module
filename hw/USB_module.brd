@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -142,7 +142,7 @@
 <wire x1="6.55" y1="8.8" x2="7.45" y2="8.8" width="0.2" layer="41"/>
 <text x="10.6" y="22" size="1" layer="48" rot="R90">UART</text>
 <text x="4" y="6" size="1.5" layer="200" rot="MR90">USB module
-rev 1.1</text>
+v1.1 (2014/12)</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -4894,7 +4894,7 @@ design rules under a new name.</description>
 <element name="R3" library="rcl" package="R0603" value="10k" x="15.9" y="7.7" rot="R90"/>
 <element name="C3" library="rcl" package="C0603" value="100n" x="9.5" y="12.1" rot="R180"/>
 <element name="C7" library="rcl" package="C0603" value="100n" x="17.3" y="7.7" rot="R270"/>
-<element name="LED1" library="led" package="CHIPLED_0805" value="" x="12.5" y="3.8"/>
+<element name="LED1" library="led" package="CHIPLED_0805" value="" x="12.5" y="3.8" rot="R180"/>
 <element name="R1" library="rcl" package="R0603" value="330" x="22.7" y="14" rot="R180"/>
 <element name="U$4" library="samtec" package="FTSH-105-TH" value="FTSH-105TH" x="1.7" y="16.8" rot="R270"/>
 <element name="J2" library="OPL Eagle Library" package="4P-2.0" value="GROVE-4P-2.0-3470130P1" x="19" y="3.2" rot="R180"/>
@@ -4928,7 +4928,7 @@ design rules under a new name.</description>
 <element name="C10" library="rcl" package="C0603" value="100n" x="13" y="27.5" rot="R270"/>
 <element name="C11" library="rcl" package="C0805" value="4.7u" x="14.7" y="27.5" rot="R270"/>
 <element name="C12" library="rcl" package="B/3528-21R" value="" x="21.5" y="24.5"/>
-<element name="LED2" library="led" package="CHIPLED_0805" value="" x="23" y="42.5" rot="R180"/>
+<element name="LED2" library="led" package="CHIPLED_0805" value="" x="23" y="42.5"/>
 <element name="R6" library="rcl" package="R0603" value="330" x="22" y="29.5" rot="R180"/>
 </elements>
 <signals>
@@ -4972,7 +4972,6 @@ design rules under a new name.</description>
 </polygon>
 <via x="7.1" y="8.2" extent="1-16" drill="0.3"/>
 <via x="7.1" y="7.2" extent="1-16" drill="0.3"/>
-<contactref element="LED1" pad="A"/>
 <contactref element="SOT1" pad="2"/>
 <contactref element="SOT1" pad="8"/>
 <via x="4.5" y="8.9" extent="1-16" drill="0.3"/>
@@ -4998,7 +4997,8 @@ design rules under a new name.</description>
 <contactref element="C11" pad="2"/>
 <contactref element="C10" pad="2"/>
 <contactref element="C12" pad="-"/>
-<contactref element="LED2" pad="A"/>
+<contactref element="LED1" pad="C"/>
+<contactref element="LED2" pad="C"/>
 </signal>
 <signal name="VIN">
 <contactref element="J1" pad="3"/>
@@ -5368,9 +5368,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="1"/>
-<contactref element="LED1" pad="C"/>
 <via x="20.4" y="15" extent="1-16" drill="0.3"/>
-<wire x1="12.5" y1="4.85" x2="18.25" y2="4.85" width="0.2" layer="1"/>
 <wire x1="18.25" y1="4.85" x2="18.8" y2="5.4" width="0.2" layer="1"/>
 <via x="18.8" y="5.4" extent="1-16" drill="0.3"/>
 <wire x1="23.55" y1="14" x2="23.55" y2="14.65" width="0.2" layer="1"/>
@@ -5390,6 +5388,8 @@ design rules under a new name.</description>
 <wire x1="22.8" y1="4.5" x2="22.5" y2="4.2" width="0.2" layer="16"/>
 <wire x1="22.5" y1="4.2" x2="20" y2="4.2" width="0.2" layer="16"/>
 <wire x1="20" y1="4.2" x2="18.8" y2="5.4" width="0.2" layer="16"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="18.25" y1="4.85" x2="12.5" y2="4.85" width="0.2" layer="1"/>
 </signal>
 <signal name="N$2">
 </signal>
@@ -5549,11 +5549,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$6">
 <contactref element="R6" pad="1"/>
-<contactref element="LED2" pad="C"/>
 <wire x1="22.85" y1="29.5" x2="22.85" y2="32.15" width="0.2" layer="1"/>
 <wire x1="22.85" y1="32.15" x2="21.5" y2="33.5" width="0.2" layer="1"/>
 <wire x1="21.5" y1="33.5" x2="21.5" y2="36.5" width="0.2" layer="1"/>
 <wire x1="21.5" y1="36.5" x2="23" y2="38" width="0.2" layer="1"/>
+<contactref element="LED2" pad="A"/>
 <wire x1="23" y1="38" x2="23" y2="41.45" width="0.2" layer="1"/>
 </signal>
 <signal name="SD_LED">
