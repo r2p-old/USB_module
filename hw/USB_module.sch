@@ -18382,6 +18382,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="330"/>
 <part name="GND23" library="supply" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18513,6 +18515,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="LED2" gate="G$1" x="254" y="91.44"/>
 <instance part="R6" gate="G$1" x="254" y="101.6" rot="R90"/>
 <instance part="GND23" gate="1" x="254" y="83.82"/>
+<instance part="GND24" gate="1" x="342.9" y="96.52"/>
+<instance part="GND26" gate="1" x="342.9" y="144.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -18735,6 +18739,26 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
+</segment>
+<segment>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="345.44" y1="139.7" x2="342.9" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="139.7" x2="342.9" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="G3"/>
+<wire x1="345.44" y1="138.43" x2="345.44" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="G4"/>
+<wire x1="342.9" y1="138.43" x2="342.9" y2="139.7" width="0.1524" layer="91"/>
+<junction x="342.9" y="139.7"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="J3" gate="G$1" pin="G1"/>
+<wire x1="342.9" y1="99.06" x2="342.9" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="G2"/>
+<wire x1="342.9" y1="101.6" x2="342.9" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="102.87" x2="345.44" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="101.6" x2="342.9" y2="101.6" width="0.1524" layer="91"/>
+<junction x="342.9" y="101.6"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
